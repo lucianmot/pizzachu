@@ -10,12 +10,13 @@ const NavbarStyled = styled.div`
 const Logo = styled(Title)`
     font-sie: 20px;
     color: white;
+    text-shadow: 2px 2px 4px #380502;
 `
 
 export function Navbar(){
     return <NavbarStyled>
         <Logo>
-            Pizzachu🍕
+            Pizzachu<span role="img" aria-label="pizza">🍕</span>
         </Logo>
     </NavbarStyled>;
 }
