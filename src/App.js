@@ -2,6 +2,7 @@ import React from 'react';
 import { createGlobalStyle } from 'styled-components';
 import { Navbar } from "./Navbar/Navbar";
 import { Banner } from "./Banner/Banner";
+import { Menu } from "./Menu/Menu";
 
 const GlobalStyle = createGlobalStyle`
   body {
@@ -21,6 +22,7 @@ function App() {
       <GlobalStyle/>
       <Navbar/>
       <Banner/>
+      <Menu/>
       <div>Hello Pizzachu</div>
       <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id dolor eget lectus volutpat viverra. Suspendisse potenti. Nulla sed nunc venenatis, sollicitudin quam porttitor, ultricies nunc. Nullam tempor, urna lobortis bibendum vulputate, turpis leo elementum nulla, eget fermentum metus dolor quis lacus. Mauris arcu mi, elementum sed arcu et, consequat congue sapien. Etiam eu aliquam purus. Aliquam et metus sed ipsum vehicula ullamcorper. Duis eu hendrerit odio. Proin sed nulla vehicula, pellentesque nibh sed, commodo dui. Duis vulputate leo at tellus sagittis, et euismod est congue. Curabitur tempor neque nulla, in pretium mauris imperdiet eu. Vestibulum eu mauris nunc. Nulla feugiat convallis nunc vel placerat. Nullam volutpat porta lectus, id placerat elit fermentum quis. Quisque elementum, sapien non aliquet consectetur, velit nisl dictum nisl, quis faucibus odio nisi sit amet arcu.
 
