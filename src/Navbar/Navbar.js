@@ -21,7 +21,6 @@ const Logo = styled(Title)`
 export function Navbar(){
     return <NavbarStyled>
         <Logo>
-            Why doesn't this start!
             Pizzachu<span role="img" aria-label="pizza">🍕</span> - I cheese you!
         </Logo>
     </NavbarStyled>;
